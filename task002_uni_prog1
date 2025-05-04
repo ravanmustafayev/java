@@ -1,0 +1,32 @@
+//this task was from modul of programming 1 with java at university 
+//it contains some german words
+//written in java
+
+/*Implement a simple program in Main.java that greets the user.
+• The program receives an argument, which should be an integer (e.g., 9). This should represent a time (full hour, values ​​1 to 24).
+• Depending on the time, different greetings should be written to the console for the user. (e.g., "Good morning" if the time is between 6 and 10.)
+• There should be at least three different greetings.
+• There should be a greeting for each time.
+• An invalid input (e.g., 25, 0, or -1) should output a corresponding message to the console. */
+
+public class Main {
+    public static void main(String[] args){
+		
+		int a = Integer.parseInt(args[0]);
+		
+		
+		if(a>6 && a<12){
+			System.out.println("Guten Morgen!!");
+	} else if (a>12 && a<18){
+		System.out.println("Guten Nachmittag!!");
+	} else if (a>18 && a<22){
+		System.out.println("Guten Abend oder Gute Nacht!!");
+	} else if (a>22 || a<6){
+		System.out.println("Es ist Ruhezeit!!");
+	} else {
+		System.out.println("Geben Sie bitte gültige Uhrzeit ein!!");
+	}
+		
+			
+    }
+}
