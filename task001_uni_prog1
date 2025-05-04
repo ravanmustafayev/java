@@ -2,6 +2,9 @@
 //it contains some german words
 //written in java
 
+/* Implement a program in Main.java that receives an integer. 
+The program should return the alternating sum from 1 to the passed number on the console. 
+The alternating sum always alternates between addition and subtraction: 1 − 2 + 3 − 4 + 5 − 6 + 7 − . . . */
 
 public class Main {
     public static void main(String[] args){
