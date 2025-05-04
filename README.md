@@ -3,3 +3,5 @@ also tasks from programming 2 modul, software engineering modul, and some self-s
 
 it contains some german words,
 written in java
+
+you can read tasks and code in files
