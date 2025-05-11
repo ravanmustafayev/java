@@ -1,0 +1,14 @@
+//comments are in azerbaijani language
+//gitbashdan daxil edilen reqmleri yoxluyub neticesine uygun mesaj verir
+//meqsed: ternär operator öyrenmek
+
+public class SimpleCode {
+	public static void main (String[] args) {
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		
+		String netice = (a == b) ? "her iki reqem beraberdir" : "her iki reqem ferqlidir";
+		System.out.print(netice);
+	}
+	
+}
