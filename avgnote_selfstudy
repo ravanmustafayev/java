@@ -13,6 +13,6 @@ public class AvgNote {
 
 /*ortalama hesabliyir
 meqsed: ternärer öyrenmek + sade operatorlarla islemek + class ve variable adlandirmaq
-konsolda string daxil etmek - git uzerinden 2 reqem (alternativ: scanner)
+konsolda string daxil etmek - gitbash uzerinden 2 reqem (alternativ: scanner)
 qiymetlendirme araligini nezere almir 0-100 ve s. kimi ancaq 50 passing border-di
 */
