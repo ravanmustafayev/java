@@ -1,0 +1,28 @@
+//comments are in azerbaijani language
+/*
+daxil edilen iki eded ücün sade emeliyyatlar aparmaq
+aparilan emeliyyatin kodu (1,2,3,4) evvelceden user terefinden bilinir
+ededler ve emeliyyat kodu gitbash uzerinden daxil edile bilir (meselen: 10 20 1)
+meqsed: modern versiya switch-case mesq etmek
+*/
+
+public class Calculator { 
+	public static void main (String[] args) {
+		double a = Double.parseDouble(args[0]);
+		double b = Double.parseDouble(args[1]);
+		int c = Integer.parseInt(args[2]);
+/*1 toplama ücün
+2 cixma ücün
+3 vurma ücün
+4 bölme ücün 
+*/
+		switch (c) {
+			case 1 -> System.out.print("a toplansin b = " + (a+b));
+			case 2 -> System.out.print("a cixilsin b = " + (a-b));
+			case 3 -> System.out.print("a vurulsun b = " + (a*b));
+			case 4 -> System.out.print("a bölünsün b = " + (a/b));
+			default -> System.out.print("System Error - Not Found");
+			
+		}
+	}
+}
