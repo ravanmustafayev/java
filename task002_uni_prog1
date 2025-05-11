@@ -15,11 +15,11 @@ public class Main {
 		int a = Integer.parseInt(args[0]);
 		
 		
-		if(a>6 && a<12){
+		if(a>=6 && a<=12){
 			System.out.println("Guten Morgen!!");
 	} else if (a>12 && a<18){
 		System.out.println("Guten Nachmittag!!");
-	} else if (a>18 && a<22){
+	} else if (a>=18 && a<=22){
 		System.out.println("Guten Abend oder Gute Nacht!!");
 	} else if (a>22 || a<6){
 		System.out.println("Es ist Ruhezeit!!");
