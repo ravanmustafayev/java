@@ -1,0 +1,18 @@
+//comments below are in azerbaijani language
+
+public class AvgNote {
+	public static void main (String[] args) {
+		double first_note = Double.parseDouble(args[0]);
+		double second_note = Double.parseDouble(args[1]);
+		double result = (first_note + second_note)/2;	
+		String passing_exam = (result > 50) ? "you passed the exam" : "you failed";
+		System.out.println("Your average note is " + result);
+		System.out.println(passing_exam);
+	}
+}
+
+/*ortalama hesabliyir
+meqsed: ternärer öyrenmek + sade operatorlarla islemek
+konsolda string daxil etmek - git uzerinden 2 reqem (alternativ: scanner)
+qiymetlendirme araligini nezere almir 0-100 ve s. kimi ancaq 50 passing border-di
+*/
