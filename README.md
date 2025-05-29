@@ -5,6 +5,9 @@ it can contain some german and azerbaijani words
 
 written in java
 
+"uni_prog1" is for programming 1 at university
+"_selfstudy" is for some exercises from self study 
+
 you can read tasks and code in files
 
 i will try to keep repo up to date
