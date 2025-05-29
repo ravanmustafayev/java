@@ -26,3 +26,21 @@ public class Calculator {
 		}
 	}
 }
+
+
+
+/* ikinci versiya bele ola bilerdi: print-i tekrarlamamaq ucun
+
+double netice = switch (c) {
+			case 1 -> a+b;
+			case 2 -> a-b;
+			case 3 -> a*b;
+			case 4 -> a/b;
+			default -> "System Error - Not Found"; 
+}; bu semikolon variablee aiddir
+
+System.out.print(netice);
+
+*/
+
+
