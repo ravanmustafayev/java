@@ -1,0 +1,46 @@
+//Betrachte folgenden fehlerhaften Code. Gib an, welche Zeilen falsch sind, und gib eine Korrektur
+//dieser Zeilen an. Beschreibe außerdem, was dieser (korrigierte) Code berechnet.
+
+//WRONG CODE FROM HERE
+/*
+public static void main(int grenze){
+2 boolean summe = 0;
+3 for (i = 1; i < grenze; i++){
+4 if (i % 3 = 0 || i % 5 = 0){
+5 summe += i;
+6 }
+7 }
+8 return summe;
+9 }
+10
+11 public static void main(String args){
+12 for (i = 1; i < 100; i++){
+13 System.println(main(i));
+14 }
+15 }
+*/
+
+
+//CORRECT CODE FROM HERE 
+//i wird von 1 bis 99 erhöht - zweite for-Schleife
+//die Zahlen bis i, die durch 3 oder 5 ohne Rest teilbar sind, werden addiert - erste main(int) methode
+//und unter einander ausgegeben - main(i)
+
+public class FehlerSuche {
+	public static int main (int grenze) {
+		int summe = 0;
+		for (int i = 1; i < grenze; i++){
+			if (i % 3 == 0 || i % 5 == 0) {
+				summe += i; 
+			} 
+		}
+		return summe;
+	}
+
+	public static void main(String[] args) {
+		for (int i = 1; i < 100; i++){
+
+		System.out.println(main(i));
+		}
+	} 	
+}
