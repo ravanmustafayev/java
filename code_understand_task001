@@ -1,0 +1,35 @@
+//read the code & write the result of code on console below
+
+public class CodeUnderstand {
+	public static int calc(int n){
+	int ergebnis = 0;
+
+	for (int i = 1; i <= n; i++) {
+		if (i % 2 == 0) {
+		ergebnis *= i-1;
+		} else {
+		ergebnis += i+1;
+		}
+		System.out.println("Ergebnis: " + ergebnis);
+	}
+
+	return ergebnis;
+	}
+
+	public static void main(String[] args){
+		System.out.println("calc(8) = " + calc(8));
+	}
+}
+
+//RESULT
+/*
+Ergebnis: 2
+Ergebnis: 2
+Ergebnis: 6
+Ergebnis: 18
+Ergebnis: 24
+Ergebnis: 120
+Ergebnis: 128
+Ergebnis: 896
+calc(8) = 896
+  */
