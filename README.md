@@ -1,4 +1,4 @@
-this java repo is full of tasks of modul of programming with java
+this java repo is full of tasks of programming with java
 also tasks from software engineering and some self-study tasks
 
 it can contain some german and azerbaijani words
