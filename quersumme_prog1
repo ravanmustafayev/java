@@ -1,0 +1,20 @@
+//daxil edilen ededin quersumme-sini tap. Quersumme yeni ededin reqemlerinin cemi: 12345 ücün 1+2+3+4+5=15
+
+public class Quersumme {
+	public static void main(String[] args){
+		if (args.length != 1 ){
+			System.out.println("Geben Sie exakt eine Zahl ein!");
+		}else {
+			int a = Integer.parseInt(args[0]);
+			
+			int summe = 0;	
+			while(a != 0){
+				System.out.println("Die letzte Ziffer ist: " + a%10); //neyi 10a bölsen qaliqda qalan ededin son reqemi olur. 
+				summe += a%10; //sifrin ustune gelirik sonuncu reqemi
+				a /= 10; //yeni reqem; sonra a%10 yeni ededin sonuncu reqemi
+				}	
+			System.out.println("Die Quersumme ist: " + summe);
+		}
+			
+	}
+}
